@@ -90,13 +90,6 @@ nav li{
     text-align: center;
 }
 /*TOTM Grid*/
-.totm {
-    gap: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
 .totm-title h2, .totm-title p {
     width: 1000px;
     margin: 0 auto;
