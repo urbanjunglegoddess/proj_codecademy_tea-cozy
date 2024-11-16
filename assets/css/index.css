@@ -126,11 +126,14 @@ nav li{
 }
 /*Locations Grid*/
 .locations {
+    background-image: url(../images/img-locations-background.jpg); 
     text-align: center;
     padding: 20px;
 }
 
 .locationbox {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: 20px;
 }
 
