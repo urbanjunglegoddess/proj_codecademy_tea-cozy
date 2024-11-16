@@ -132,6 +132,7 @@ nav li{
     margin:40px;
     justify-content: center;
     align-items: center;
+    padding-bottom: 0%;
 }
 
 .location-box {
@@ -155,5 +156,19 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 20px;
+    margin: 0 auto;
+}
+
+#copyright {
+    text-align: left;
+    padding-left: 20px;
+}
+
+#company-name {
+    margin:0;
+    padding:0;
+    
+}
+#email{
+    padding: 10px;
 }
