@@ -32,10 +32,12 @@ header {
     
 }
 #logo {
-  margin:10px;
-  height: 50px;
-  width: auto;
-  float:left;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-height: 50px;
+    width: auto;
+  
 }
 
 /*Navigation bar*/
@@ -53,11 +55,10 @@ nav{
  nav ul {
     float: right;
     margin: 0;
-  padding: 0;
-
  }
 nav li{ 
     display: inline;
+    padding: 10px;
 }
 
 .navbar a:hover {
@@ -69,18 +70,25 @@ nav li{
 
 
 /*mission*/
- .mission div {
-    height:700px; 
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
     width: auto;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1acstie*_ga*NjU1MDI1MTkuMTY1Mjc5MTI2NA..*_ga_3LRZM6TM9L*MTY2NDE4NDE3MS4xMzQuMS4xNjY0MTg1Mjc4LjUzLjAuMA..");
-    background-repeat: no-repeat; background-position: center;
-    }
-#statement{
-     width: 100%;
-     display:block;
-     background-color: black;
-    }
-    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#statement {
+    width: 100%;
+    max-height: 700px;
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
 /*TOTM Grid*/
 .totm {
     display: flex;
@@ -91,6 +99,11 @@ nav li{
     width: auto;
     background-color: black;
 }
+.totm-title {
+    text-align: center;
+    padding: 10px 20px;
+}
+
 .totm div .productimg {
     height:200px;
     width: 300px;
@@ -112,8 +125,8 @@ nav li{
 /*Locations Grid*/
 .locations {
   height: 500px;
-  width:1200px
-  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*6rg04f*_ga*NjU1MDI1MTkuMTY1Mjc5MTI2NA..*_ga_3LRZM6TM9L*MTY2NDE4NDE3MS4xMzQuMS4xNjY0MTg1Mjc4LjUzLjAuMA..);
+  width:1200px;
+  background-image: url(../assets/images/img-locations-background.jpg);
 }
 
 /*Footer*/
