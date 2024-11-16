@@ -129,22 +129,26 @@ nav li{
     background-image: url(../images/img-locations-background.jpg); 
     height:500px;
     justify-content: center;
+    margin:40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .location-box {
     display: inline-block;
     background-color: black;
-    padding: 20px;
+    margin: 40px;
+    padding: 20px 30px;
     color: white;
     max-width: 300px;
+    align-items: center;
+    justify-content: center;
 }
 
-.location-title {
-    padding: 40px 15px;
+.locations p{
+    padding: 10px;
 }
 
-.location-address p {
-}
 
 /* Footer */
 footer {
@@ -153,6 +157,3 @@ footer {
     text-align: center;
     padding: 20px;
 }
-
-/*Footer*/
-/*Footer text*/
