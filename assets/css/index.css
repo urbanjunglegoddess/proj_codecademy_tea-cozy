@@ -90,6 +90,13 @@ nav li{
     text-align: center;
 }
 /*TOTM Grid*/
+.totm {
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .totm-title h2, .totm-title p {
     width: 1000px;
     margin: 0 auto;
@@ -100,12 +107,30 @@ nav li{
     margin-top: 20px;
 }
 
+.product-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
+.product-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-title {
+    text-align: center;
+    margin-top: 10px;
+}
 /*Locations Grid*/
 .locations {
-  height: 500px;
-  width:1200px;
-  background-image: url(../assets/images/img-locations-background.jpg);
+    text-align: center;
+    padding: 20px;
+}
+
+.locationbox {
+    margin: 20px;
 }
 
 /*Footer*/
