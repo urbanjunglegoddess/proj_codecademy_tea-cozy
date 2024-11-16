@@ -90,36 +90,15 @@ nav li{
     text-align: center;
 }
 /*TOTM Grid*/
-.totm {
-    display: flex;
-    justify-content: center;
-    flex-flow:row; 
-    flex-direction: row;
-    height:700px;
-    width: auto;
-    background-color: black;
-}
-.totm-title {
+.totm-title h2, .totm-title p {
+    width: 1000px;
+    margin: 0 auto;
     text-align: center;
-    padding: 10px 20px;
 }
 
-.totm div .productimg {
-    height:200px;
-    width: 300px;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
- 
+.totm-title p {
+    margin-top: 20px;
 }
-
-.totm div.prodcontainer {
-  text-align: center;
-  padding: 10px 20px;
-  display:flex;
-  justify-content: center;
-  flex-flow:row; 
-  flex-direction: row;
-}
-
 
 
 /*Locations Grid*/
