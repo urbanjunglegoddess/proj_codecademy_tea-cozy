@@ -76,7 +76,7 @@ nav li{
     align-items: center;
     height: 700px;
     width: auto;
-    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1acstie*_ga*NjU1MDI1MTkuMTY1Mjc5MTI2NA..*_ga_3LRZM6TM9L*MTY2NDE4NDE3MS4xMzQuMS4xNjY0MTg1Mjc4LjUzLjAuMA..");
+    background-image: url("/assets/images/img-mission-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -90,6 +90,11 @@ nav li{
     text-align: center;
 }
 /*TOTM Grid*/
+.totm {
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
 .totm-title h2, .totm-title p {
     width: 1000px;
     margin: 0 auto;
@@ -101,15 +106,15 @@ nav li{
 }
 
 .product-card {
-    display: flex;
+    display: inline-block;
     justify-content: flex-start;
-    align-items: center;
+    max-width:fit-content;
+    padding: 10px;
 }
 
 .product-img {
     width: 300px;
     height: 200px;
-    object-fit: cover;
 }
 
 .product-title {
