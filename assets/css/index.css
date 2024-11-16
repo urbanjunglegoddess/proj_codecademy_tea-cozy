@@ -124,17 +124,34 @@ nav li{
     text-align: center;
     margin-top: 10px;
 }
-/*Locations Grid*/
+/* Locations Grid */
 .locations {
     background-image: url(../images/img-locations-background.jpg); 
-    text-align: center;
-    padding: 20px;
+    height:500px;
+    justify-content: center;
 }
 
-.locationbox {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin: 20px;
+.location-box {
+    display: inline-block;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    max-width: 300px;
+}
+
+.location-title {
+    padding: 40px 15px;
+}
+
+.location-address p {
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 /*Footer*/
